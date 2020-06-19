@@ -1,5 +1,5 @@
 """
-Given an integer, return True if it odd otherwise return False.
+Given an integer, return True if is it odd otherwise return False.
 
 Example 1
 Input
@@ -18,6 +18,10 @@ import unittest
 
 
 def is_odd(n):
+    if n%2 != 0:
+        return True
+    else:
+        return False    
     pass
 
 
