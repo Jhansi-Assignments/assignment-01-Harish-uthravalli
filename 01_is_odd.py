@@ -22,7 +22,7 @@ def is_odd(n):
         return True
     else:
         return False    
-    pass
+    
 
 
 # DO NOT TOUCH THE BELOW CODE

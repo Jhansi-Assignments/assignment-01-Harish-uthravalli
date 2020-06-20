@@ -18,7 +18,20 @@ import unittest
 
 
 def is_prime(n):
-    pass
+    if n>1:
+        flag=0
+        for i in range(2,n):
+            if n%i==0:
+                flag=1
+
+        if flag==0:
+            return True
+
+        else:
+            return False
+
+    return False                    
+
 
 
 # DO NOT TOUCH THE BELOW CODE
