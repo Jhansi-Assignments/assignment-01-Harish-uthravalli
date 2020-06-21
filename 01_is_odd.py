@@ -19,11 +19,10 @@ import unittest
 
 def is_odd(n):
   print('this test is run on repl.it')
-
-    if n%2 != 0:
-        return True
-    else:
-        return False    
+  if n%2 != 0:
+      return True
+  else:
+      return False    
     
 
 
